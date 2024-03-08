@@ -1,0 +1,147 @@
+{
+  "type": "umap",
+  "properties": {
+    "zoom": 15,
+    "easing": false,
+    "licence": "",
+    "miniMap": false,
+    "overlay": {},
+    "slideshow": {},
+    "tilelayer": {
+      "tms": false,
+      "name": "OSM OpenTopoMap",
+      "maxZoom": 20,
+      "minZoom": 1,
+      "attribution": "Kartendaten: © [[https://openstreetmap.org/copyright|OpenStreetMap]]-Mitwirkende, [[http://viewfinderpanoramas.org/|SRTM]] | Kartendarstellung: © [[https://opentopomap.org/|OpenTopoMap]] ([[https://creativecommons.org/licenses/by-sa/3.0/|CC-BY-SA]])",
+      "url_template": "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
+    },
+    "captionBar": false,
+    "description": "",
+    "limitBounds": {},
+    "moreControl": true,
+    "zoomControl": true,
+    "captionMenus": true,
+    "embedControl": true,
+    "scaleControl": true,
+    "searchControl": true,
+    "scrollWheelZoom": true,
+    "datalayersControl": true,
+    "fullscreenControl": true,
+    "displayPopupFooter": false,
+    "permanentCreditBackground": true,
+    "name": "XULS010_BucadellefatediCoreglia"
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "Percorso",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "Brown",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# {Titolo}\n##   ( [[https://sites.google.com/view/prin-underlandscape/home-page/attivit%C3%A0-sul-campo/{Link}|link]]) \n{Descrizione}\n--- \n**Lunghezza** (km): {Lunghezza}\n**Durata**: {Durata}\n**Dislivello in salita** (m): {Dislivello in salita}\n**Dislivello in discesa** (m): {Dislivello in discesa} \n--- \nRegistrato il {Data} alle {Ora} \ncon {Strumento} \nda {Autore}"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "POI",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "Brown",
+        "iconClass": "Ball",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# {Titolo} \n{{{Foto}|300}} \n##   ( [[https://sites.google.com/view/prin-underlandscape/home-page/attivit%C3%A0-sul-campo/{Link}|link]]) \n{Descrizione} \n**Altitudine** (m): {Altitudine} \n--- \nScattata il {Data} alle {Ora} \ncon {Strumento} \nda {Autore}"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "name": "QRtag",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "Brown",
+        "iconClass": "Ball",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# {Titolo} \n{{{Foto}|300}} \n \n{Testo} \n \nFID: {fid}"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "ulsp_type": "Sito",
+            "Sito": "ULS010",
+            "Titolo": "Buca delle fate di Coreglia",
+            "Provincia": "Lucca",
+            "Comune": "Coreglia Altelminelli",
+            "Toponimo": "Ghivizzano",
+            "Microtoponimo": "",
+            "Altitudine": "343",
+            "Strade d'accesso": "Deviazione dalla Strada Provinciale 38, su strada bianca verso loc. Ansugo",
+            "Altri elementi di localizzazione": "Dalla strada bianca proseguire fino al letto del torrente Segone, dove si trova l'impianto dell'acquedotto",
+            "Tipologia sito": "Frequentazione antropica",
+            "Definizione": "Grotta",
+            "Descrizione": "Grotta con ingresso di piccole dimensione, con due camere e corridoio che porta a una calata di 10 m circa, localizzata sul versante sud-ovest della Costa dei gatti.",
+            "Cronologia iniziale": "ND (Non determinata)",
+            "Cronologia finale": "ND (Non determinata)",
+            "Reperti ceramici": "NO",
+            "Reperti geologici": "NO",
+            "Reperti organici": "NO",
+            "Altri manufatti": "",
+            "Sicurezza": "necessario guadare piccolo corso d'acqua",
+            "Accessibilità": "Facile",
+            "Copertura GPS": "Parziale",
+            "Copertura rete mobile": "Parziale",
+            "Foto": "https://i.postimg.cc/KcT0Xxqh/20230714-1008156830458200561894017-large.jpg",
+            "Link": "",
+            "Bibliografia": "",
+            "Strumento": "",
+            "Data": "07-14-2023",
+            "Ora": "10:05:57",
+            "_umap_options": {
+              "popupTemplate": "Default"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.523792,
+              44.046328
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "name": "Sito",
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "color": "DarkBlue",
+        "iconClass": "Ball",
+        "popupShape": "Panel",
+        "popupTemplate": "Table",
+        "popupContentTemplate": "# SITO {Sito}\n{{{Foto}|300}}\n## {Titolo} ( [[https://sites.google.com/view/prin-underlandscape/{Link}|link]])\n{Descrizione}\n---\n**Tipologia**: {Tipologia sito}\n**Definizione**: {Definizione}\n**Cronologia iniziale**: {Cronologia iniziale}\n**Cronologia finale**: {Cronologia finale}\n**Reperti ceramici**: {Reperti ceramici}\n**Reperti geologici**: {Reperti geologici}\n**Reperti organici**: {Reperti organici}\n**Altri manufatti**: {Altri manufatti}\n---\n**Altitudine** (m): {Altitudine}\n**Sicurezza**: {Sicurezza}\n**Accessibilità**: {Accessibilità}\n**Copertura rete mobile**: {Copertura rete mobile}\n**Copertura GPS**: {Copertura GPS}\n---\n**Provincia**: {Provincia}\n**Comune**: {Comune}\n**Toponimo**: {Toponimo}\n**Microtoponimo**: {Microtoponimo}\n**Strade d'accesso**: {Strade d'accesso}\n**Altra localizzazione**: {Altri elementi di localizzazione}\n---\n**Prima visita**: {Data} {Ora}\n**Strumento**: {Strumento}\n[[https://sites.google.com/view/prin-underlandscape/home-page/bibliografie/{Sito}|bibliografia]]"
+      }
+    }
+  ],
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.523792,
+      44.046328
+    ]
+  }
+}
